@@ -14,9 +14,10 @@ section a:link,section a:visited
 {color: maroon}
 main{clear:left;}
 section a:focus,section a:hover{ color:steelblue;}
+
 aside section header {color: maroon;}
 
-aside a,aside a:visited{color: steelblue;}
+aside a:link, aside a:visited{color: steelblue;}
 aside a:hover,aside a:focus
 {color : maroon;}
 
