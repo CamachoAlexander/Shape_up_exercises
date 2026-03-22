@@ -15,6 +15,6 @@ main{clear:left;}
 section a:focus,section a:hover{ color:steelblue;}
 aside section header {color: maroon;}
 
-aside ul:any-link{color: steelblue;}
-aside ul:hover,aside ul:visited,aside ul:focus 
+aside a{color: steelblue;}
+aside a:hover,aside a:visited,aside a:focus 
 {color : maroon;}
