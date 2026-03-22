@@ -8,6 +8,6 @@ h1 {
 h3 {font-size: 120%}
 header img {float: left; margin-right:2em;}
 ul {line-height: 1.5;}
-a:link{color: maroon}
+a:link{color: steelblue}
 main{clear:left;}
-a:link,a:visited{color: steelblue;}
+a:link,a:visited,link:focus,link:hover{color: steelblue;}
