@@ -8,9 +8,10 @@ h1 {
 h3 {font-size: 120%}
 header img {float: left; margin-right:2em;}
 ul {line-height: 1.5;}
-section a:link{color: steelblue}
+
+section a:link,section a:visited
+{color: maroon}
 main{clear:left;}
-section a:focus{ color:maroon;}
-section a:hover{ color:maroon;}
-section a:visited{ color:maroon;}
+section a:focus,section a:hover{ color:steelblue;}
+
 h4 { color: steelblue ;}
