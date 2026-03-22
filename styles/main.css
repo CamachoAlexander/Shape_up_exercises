@@ -1,12 +1,12 @@
-body {font: 1em san-serif;}
-a {style: bold; 
-visited {color: maroon}
-}
+body {font: 1em sans-serif;}
+a {font-weight: bold;}
 h1 {
-  font-size: 200%;
+  font-size: 3em;
   color: steelblue;
   font-style: italic;
 }
-h2 {font-size: 150%}
-header {float: left; margin: 2em;}
-Ul {line-height: 1.5;}
+h3 {font-size: 150%}
+header img {float: left; margin-right:2em;}
+ul {line-height: 1.5;}
+:visited{color: maroon}
+main{clear:left;}
