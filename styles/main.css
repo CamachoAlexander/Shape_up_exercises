@@ -17,9 +17,10 @@ section a:focus,section a:hover{ color:steelblue;}
 aside section header {color: maroon;}
 
 aside a{color: steelblue;}
-aside a:hover,aside a:focus 
+aside a:hover,aside a:focus,aside a:visited
 {color : maroon;}
+
 aside h3{color:maroon}
 
 footer {font-size: 50%;text-align: center;}
-header h2 {font-size: 2em;}
+header h2 {font-size: 1em;}
