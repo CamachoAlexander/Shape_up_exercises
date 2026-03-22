@@ -10,4 +10,4 @@ header img {float: left; margin-right:2em;}
 ul {line-height: 1.5;}
 a:link{color: steelblue}
 main{clear:left;}
-ul a:focus,ul a:hover{color: steelblue;}
+:any-link:focus{ color:steelblue;}
