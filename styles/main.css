@@ -13,3 +13,8 @@ section a:link,section a:visited
 {color: maroon}
 main{clear:left;}
 section a:focus,section a:hover{ color:steelblue;}
+aside section header {color: maroon;}
+
+aside ul:any-link{color: steelblue;}
+aside ul:hover,aside ul:visited,aside ul:focus 
+{color : maroon;}
