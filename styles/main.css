@@ -1,5 +1,8 @@
 *{
   font: 1em sans-serif;  
   hyphens: strong;
-  color : blue;
 }
+a { font-weight: bold;}
+h1{font-size: large;}
+header, h3{color: steelblue;
+font-size: 100%;}
