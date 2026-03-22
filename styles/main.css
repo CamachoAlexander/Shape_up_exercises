@@ -11,3 +11,5 @@ ul {line-height: 1.5;}
 a:link{color: steelblue}
 main{clear:left;}
 body:any-link:focus{ color:steelblue;}
+body:any-link:hover{ color:steelblue;}
+body:any-link:visited{ color:steelblue;}
