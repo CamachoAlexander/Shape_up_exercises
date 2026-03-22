@@ -5,8 +5,9 @@ h1 {
   color: steelblue;
   font-style: italic;
 }
-h3 {font-size: 150%}
+h3 {font-size: 120%}
 header img {float: left; margin-right:2em;}
 ul {line-height: 1.5;}
-:visited{color: maroon}
+a:link{color: maroon}
 main{clear:left;}
+a:link,a:visited{color: steelblue;}
