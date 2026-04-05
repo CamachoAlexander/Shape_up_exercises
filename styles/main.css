@@ -1,233 +1,127 @@
-/* variables */
-
-:root {
-
-    --primary-color: #931420;
-
-    --accent-color: #f6bb73;
-
-    --light-accent: #fffded;
-
-    --light: white;
-
-    --dark: black;
-
-}
-
-
-
-/* reset */
-
 * {
-
-    margin: 0;
-
-    padding: 0;
-
-    box-sizing: border-box;
-
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
 }
-
-
-
-/* the default styles for the elements */
 
 body {
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    font-size: 100%;
-
-    width: 80%;
-
-    margin: auto;
-
-    border: 3px solid var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  width: 100%;
+  margin: 0 auto; 
+  min-width: 900px;
 
 }
 
-header, section, aside, footer { padding: 1em; }
-
-h1, h2, h3, p, article, blockquote { padding-bottom: .5em; }
-
-ul { margin-left: 1em; }
-
-h1 { font-size: 150%; }
-
-h2 { font-size: 120%; }
-
-h3 { font-size: 110%; }
-
-a:focus, a:hover {
-
-    font-style: italic;
-
+header img { width: 100%;
+  min-width: 100px;
+  max-width: 120px;
+  height: auto;
+}
+h1 {
+  font-size: 3vw;
+  color: steelblue;
+  font-style: italic;
 }
 
+h2 {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
 
+h3 {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
 
-/* the styles for the header */
+p, h3, h4 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.6;}
+
+blockquote {
+  font-style: italic;
+  margin: 0 40px 15px 40px;
+}
+
+a {
+  font-weight: bold;
+}
 
 header {
+  background-image: linear-gradient(to bottom, white, lightsteelblue);
+  border-bottom: 4px solid steelblue;
+  overflow: auto;
+  padding: 20px;
+}
 
-    border-bottom: 3px solid var(--primary-color);
+header img {
+  float: left; 
+  margin-right: 2em;
+}
 
-    background-image: linear-gradient(30deg,
+main { display: flex;
+  clear: left;
+  padding: 20px;
+  padding-bottom: 50px;
+  align-items: flex-start;
+}
 
-        var(--accent-color) 0%,
+.main-content { 
+  width: 60%;
+}
 
-        var(--light-accent) 25%,
+section a:link, section a:visited {
+  color: maroon;
+}
 
-        var(--light) 50%,
+section {
+  margin-bottom: 20px;
+}
+section a:focus, section a:hover { 
+  color: steelblue;
+}
 
-        var(--light-accent) 75%,
+ul {
+  line-height: 1.5;
+}
 
-        var(--accent-color) 100%);
-
-    & h2 {
-
-        font-size: 175%;
-
-        color: var(--primary-color);
-
-        padding-bottom: 0;
-
-    }
-
-    & h3 {
-
-        font-size: 130%;
-
-        font-style: italic;
-
-    }
-
-    & img {
-
-        float: left;
-
-        margin: 0 30px;
-
-        width: clamp(40px, 15%, 66px);
-
-    }
+aside { 
+  border: 2px solid steelblue;
+  border-radius: 20px; 
+  padding: 20px;
+  flex: 1;
+  margin-top: 0;
+margin-left: 40px;
+min-width: 200px;
 
 }
 
-
-
-/* the styles for the main element */
-
-main { display: flex; gap: 10px; flex-wrap: wrap;
-
-   
-
-
-
+aside h3 {
+  color: maroon;
 }
 
-
-
-/* the styles for the section */
-
-section { width: 60%;
-
-    & h1 {
-
-        padding-top: .5em;
-
-    }
-
-    & h2 {
-
-        color: var(--primary-color);
-
-    }
-
-    & article + h2 {
-
-        clear: right;
-
-        border-top: 3px solid var(--primary-color);
-
-        padding-top: .5em;
-
-    }
-
-    & blockquote {
-
-        font-style: italic;
-
-        margin-left: 2em;
-
-    }
-
+aside a:link, aside a:visited {
+  color: steelblue;
 }
 
-
-
-/* the styles for the article */
-
-article {
-
-    border-top: 3px solid var(--primary-color);
-
-    padding-top: .5em;
-
-    margin-bottom: .5em;
-
-    & img {
-
-        float: right;
-
-        margin: .25em 0 1em 1em;
-
-        border: 1px solid var(--dark);
-
-        width: min(100%, 225px);
-
-    }
-
+aside a:hover, aside a:focus {
+  color: maroon;
 }
 
-
-
-/* the styles for the aside */
-
-aside { width: 20%;
-
-
-
-    & h2 {
-
-        color: var(--primary-color);
-
-    }
-
-    & img {
-
-        margin-bottom: .9em;
-
-    }
-
+aside ul {
+  padding-left: 10px;
+  margin-top: 10px;
 }
-
-
-
-/* the styles for the footer */
 
 footer {
-
-    background-color: var(--primary-color);
-
-    & p {
-
-        text-align: center;
-
-        color: white;
-
-        padding-bottom: 0;
-
-    }
-
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  padding: 15px;
+  margin-top: 10px;
 }
